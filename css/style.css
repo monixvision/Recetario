@@ -203,7 +203,7 @@
 	opacity: 0.6;
 }
 
-#textocroquetaprx-seleccion, #cuatro-tortilla{
+#textocroquetaprx-seleccion, #cuatro-tortilla,#textocroquetaprx-tortilla{
 	display: none;
 }
 
@@ -291,10 +291,6 @@
 	}
 }
 
-.parar {
-    animation: none; /* Detener la animación REVISAR */
-}
-
 #cuchillo1-tortilla{ 
 	cursor:pointer;
 	transform-origin: 1250.5956px 1256.6237px;
@@ -377,15 +373,78 @@ g[id*='boton']:hover{
 	scale: 1.1;
 }
 
-#verdescrip1-tortilla:hover{
-	cursor: pointer;
-	opacity: 0.6;
-}
-
 g[id*='paso']{
 	display: none;
 }
 
 g[id*='textoinfo']{
 	display: none;
+}
+
+g[id*='verdescrip']{
+	display: none;
+}
+
+g[id*='verdescrip']:hover{
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+#tomate-tortilla{
+	transform-origin: 1646.1px 5963.9159px;
+	animation: girar 0.5s infinite alternate;
+}
+
+#zanahoria-tortilla{
+	transform-origin: 1065.9525px 6391.1657px;
+	animation: girar 0.7s infinite alternate;
+}
+
+#cuchara-tortilla{
+	transform-origin: 1509.4697px 6125.9963px;
+	animation: girar 1s infinite alternate;
+}
+
+#ajos-tortilla{
+	transform-origin: 386.4914px 6170.9229px;
+	animation: girar 0.5s infinite alternate;
+}
+
+#varilla-tortilla{
+	transform-origin: 1503.3033px 6804.0582px;
+	animation: girar 1s infinite alternate;
+}
+
+#manopla-tortilla{
+	transform-origin: 1007.5163px 6763.0175px;
+	animation: girar 0.5s infinite alternate;
+}
+
+#huevofrito-tortilla{
+	transform-origin: 537.4021px 5987.7379px;
+	animation: girar 1s infinite alternate;
+}
+
+#rodillo-tortilla{
+	transform-origin: 344.3873px 5900.5128px;
+	animation: girar 0.7s infinite alternate;
+}
+
+
+@keyframes girar {
+	0% {
+		transform: translateX(-20px);
+	}
+
+	100% {
+		transform: translateX(20px);
+
+}
+}
+
+#croquetasbtn-tortilla:hover{
+	cursor: pointer;
+	opacity: 0.6;
+	transform-origin: 478.25px 6525.1997px;
+	scale: 100.5%;
 }

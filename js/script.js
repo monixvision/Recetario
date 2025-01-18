@@ -119,56 +119,60 @@ $('#flechavolver-tortilla').click(function() {
   });
 
   $('#aceite-tortilla').click(function() {
-    $('#textoaceite-tortilla').show();
-    $(this).addClass('parar'); // MIRAR ESTO
+    $('#textoaceite-tortilla').fadeToggle();
+    $(this).css("animation", "none");
   });
   
   $('#huevos-tortilla').click(function() {
-    $('#textohuevos-tortilla').show();
+    $('#textohuevos-tortilla').fadeToggle();
+    $(this).css("animation", "none");
   });
 
   $('#cebolla-tortilla').click(function() {
-    $('#textocebolla-tortilla').show();
+    $('#textocebolla-tortilla').fadeToggle();
+    $(this).css("animation", "none");
   });
   
   $('#patatas-tortilla').click(function() {
-    $('#textopatatas-tortilla').show();
+    $('#textopatatas-tortilla').fadeToggle();
+    $(this).css("animation", "none");
   });
 
   $('#sal-tortilla').click(function() {
-    $('#textosal-tortilla').show();
+    $('#textosal-tortilla').fadeToggle();
+    $(this).css("animation", "none");
   });
 
   $('#cuenco-tortilla').click(function() {
-    $('#textocuenco-tortilla').show();
+    $('#textocuenco-tortilla').fadeToggle();
   }); 
 
   $('#sartenuten_tortilla').click(function() {
-    $('#textosarten-tortilla').show();
+    $('#textosarten-tortilla').fadeToggle();
   }); 
 
   $('#espatula-tortilla').click(function() {
-    $('#textoespatula-tortilla').show();
+    $('#textoespatula-tortilla').fadeToggle();
   }); 
 
   $('#tabla-tortilla').click(function() {
-    $('#textotabla-tortilla').show();
+    $('#textotabla-tortilla').fadeToggle();
   }); 
 
   $('#plato-tortilla').click(function() {
-    $('#textoplato-tortilla').show();
+    $('#textoplato-tortilla').fadeToggle();
   }); 
 
   $('#pelador-tortilla').click(function() {
-    $('#textopelador-tortilla').show();
+    $('#textopelador-tortilla').fadeToggle();
   }); 
 
   $('#cuchillo1-tortilla').click(function() {
-    $('#textocuchillo-tortilla').show();
+    $('#textocuchillo-tortilla').fadeToggle();
 });
 
 $('#cubiertos-tortilla').click(function() {
-  $('#textocubiertos-tortilla').show();
+  $('#textocubiertos-tortilla').fadeToggle();
 });
 
 document.getElementById('abuelita2-tortilla').addEventListener('click', function() {
@@ -185,11 +189,74 @@ document.getElementById('abuelita2-tortilla').addEventListener('click', function
 });
 
 $('#boton1-tortilla').click(function() {
-  $('#paso1-tortilla').show();
+  $('#paso1-tortilla').fadeToggle();
+  $('#verdescrip1-tortilla').fadeIn(800);
 });
 
 $('#verdescrip1-tortilla').click(function() {
   $('#textoinfo1-tortilla').fadeToggle();
+});
+
+$('#boton2-tortilla').click(function() {
+  $('#paso2-tortilla').fadeToggle();
+  $('#verdescrip2-tortilla').fadeIn(800);
+});
+
+$('#verdescrip2-tortilla').click(function() {
+  $('#textoinfo2-tortilla').fadeToggle();
+});
+
+$('#boton3-tortilla').click(function() {
+  $('#paso3-tortilla').fadeToggle();
+  $('#verdescrip3-tortilla').fadeIn(800);
+});
+
+$('#verdescrip3-tortilla').click(function() {
+  $('#textoinfo3-tortilla').fadeToggle();
+});
+
+$('#boton4-tortilla').click(function() {
+  $('#paso4-tortilla').fadeToggle();
+});
+
+$('#boton5-tortilla').click(function() {
+  $('#paso5-tortilla').fadeToggle();
+  $('#verdescrip4-tortilla').fadeIn(800);
+});
+
+$('#verdescrip4-tortilla').click(function() {
+  $('#textoinfo4-tortilla').fadeToggle();
+});
+
+$('#boton6-tortilla').click(function() {
+  $('#paso6-tortilla').fadeToggle();
+});
+
+$('#boton7-tortilla').click(function() {
+  $('#paso7-tortilla').fadeToggle();
+  $('#verdescrip5-tortilla').fadeIn(800);
+  $('#verdescrip7-tortilla').fadeIn(800);
+});
+
+$('#verdescrip5-tortilla').click(function() {
+  $('#textoinfo5-tortilla').fadeToggle();
+});
+
+$('#verdescrip7-tortilla').click(function() {
+  $('#textoinfo6-tortilla').fadeToggle();
+});
+
+$('#boton8-tortilla').click(function() {
+  $('#paso8-tortilla').fadeToggle();
+  $('#verdescrip6-tortilla').fadeIn(800);
+});
+
+$('#verdescrip6-tortilla').click(function() {
+  $('#textoinfo7-tortilla').fadeToggle();
+});
+
+$('#croquetasbtn-tortilla').click(function() {
+  $('#textocroquetaprx-tortilla').fadeToggle();
 });
 
 });
