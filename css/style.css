@@ -1,0 +1,391 @@
+	
+	body{
+		margin: auto;
+	}
+	.st0{fill:#F4E3C1;}
+	.st1{fill:#B20BB7;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#3A3A37;}
+	.st4{fill:#FDCA03;}
+	.st5{fill:#CF0B26;}
+	.st6{fill:#E0BF53;}
+	.st7{fill:#C7262A;}
+	.st8{fill:#ED838A;}
+	.st9{fill:#A0131E;}
+	.st10{fill:#75BF44;}
+	.st11{fill:#F0F7FF;}
+	.st12{fill:#E6EDF4;}
+	.st13{fill:#CC562E;}
+	.st14{fill:#C4D179;}
+	.st15{fill:#A8B247;}
+	.st16{fill:#962D08;}
+	.st17{fill:#DDE2A6;}
+	.st18{fill:#E2B9F9;}
+	.st19{fill:#D29DF4;}
+	.st20{fill:#F3E1FF;}
+	.st21{fill:#EDA889;}
+	.st22{fill:#F09F72;}
+	.st23{fill:#F9BAA0;}
+	.st24{fill:#AF842F;}
+	.st25{fill:#96681D;}
+	.st26{fill:#D1A661;}
+	.st27{fill:#FFB59D;}
+	.st28{fill:#ED9F8A;}
+	.st29{fill:#95684B;}
+	.st30{fill:#F4A095;}
+	.st31{fill:#EF8F73;}
+	.st32{fill:none;stroke:#63433B;stroke-width:9;stroke-miterlimit:10;}
+	.st33{fill:#DDDDDD;}
+	.st34{fill:none;stroke:#63433B;stroke-width:9;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st35{fill:#D3562A;}
+	.st36{fill:#E9C262;}
+	.st37{fill:#FBD46C;}
+	.st38{fill:#F1C762;}
+	.st39{fill:#D77D1F;}
+	.st40{fill:#C16F25;}
+	.st41{fill:#AD560E;}
+	.st42{fill:#7C471D;}
+	.st43{fill:#E4CE96;}
+	.st44{fill:#EFCA89;}
+	.st45{fill:#E8A660;}
+	.st46{fill:#C9843F;}
+	.st47{fill:#F4C092;}
+	.st48{fill:#CED5D8;}
+	.st49{fill:#3838E5;}
+	.st50{fill:#0047AB;}
+	.st51{fill:#C9C9F4;}
+	.st52{fill:#BA7342;}
+	.st53{fill:#A55926;}
+	.st54{fill:#7F3F13;}
+	.st55{fill:#EAD4A5;}
+	.st56{fill:#EDE6CA;}
+	.st57{fill:#DBA37D;}
+	.st58{fill:#E0B673;}
+	.st59{fill:#FCDCA9;}
+	.st60{fill:#C8C6C1;}
+	.st61{fill:#9E9B98;}
+	.st62{fill:#E6E6E5;}
+	.st63{fill:#F6A21F;}
+	.st64{fill:#919191;}
+	.st65{fill:#717171;}
+	.st66{fill:#888888;}
+	.st67{fill:#7E7E7E;}
+	.st68{fill:#636363;}
+	.st69{fill:#C8C8C8;}
+	.st70{fill:#B3B3B3;}
+	.st71{fill:#6E6E6E;}
+	.st72{fill:#626262;}
+	.st73{fill:#565656;}
+	.st74{fill:#F8C288;}
+	.st75{fill:#AFAFAF;}
+	.st76{fill:#AFB763;}
+	.st77{fill:none;stroke:#B3B3B3;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st78{opacity:0.37;fill:#AFB763;}
+	.st79{fill:#ABADB0;}
+	.st80{fill:#DAE2E8;}
+	.st81{fill:#919396;}
+	.st82{opacity:0.37;fill:#0047AB;}
+	.st83{fill:#C4C7CC;}
+	.st84{opacity:0.66;fill:#F0F7FF;}
+	.st85{fill:#FEA900;}
+	.st86{opacity:0.76;fill:#F0F7FF;}
+	.st87{opacity:0.86;fill:#F0F7FF;}
+	.st88{opacity:0.23;fill:#F0F7FF;}
+	.st89{opacity:0.33;}
+	.st90{fill:#B59259;}
+	.st91{opacity:0.31;fill:#FEA900;}
+	.st92{fill:#ACAEAF;}
+	.st93{fill:#C6C6C6;}
+	.st94{opacity:0.37;fill:#808080;}
+	.st95{fill:#F9F4DE;}
+	.st96{fill:#F1A318;}
+	.st97{fill:#FFE79F;}
+	.st98{fill:#FFFCEC;}
+	.st99{fill:#FED463;}
+	.st100{fill:#92B466;}
+	.st101{fill:#A3BC74;}
+	.st102{fill:#DC9453;}
+	.st103{fill:#D6803D;}
+	.st104{fill:#E5B776;}
+	.st105{fill:#737577;}
+	.st106{fill:#939598;}
+	.st107{fill:#808285;}
+	.st108{fill:#9D9FA2;}
+	.st109{fill:#A7A9AC;}
+	.st110{fill:#797A7D;}
+	.st111{fill:#848689;}
+	.st112{fill:#951B1B;}
+	.st113{fill:#B5221E;}
+	.st114{fill:#C62828;}
+	.st115{fill:#C93F42;}
+	.st116{fill:#D4D2D0;}
+	.st117{fill:#B57237;}
+
+#grupo-tortilla,#grupo-seleccion{
+	display:none;
+}
+
+#flecharriba-tortilla:hover,
+#flechabajo-homepage:hover,
+#flechavolver-seleccion:hover,
+#click-homepage:hover,
+#flechavolver-tortilla:hover{
+	cursor: pointer;
+	opacity:0.6;
+}
+
+#sonido-homepage,
+#sonido-tortilla,
+#sonido2-tortilla{
+	display:none;
+}
+#sinsonido-homepage:hover,
+#sonido-homepage:hover,
+#sonido-tortilla:hover,
+#sonido2-tortilla:hover,
+#sinsonido-tortilla:hover,
+#sinsonido2-tortilla:hover{
+	opacity:0.6;
+	cursor: pointer;
+}
+
+#aceite-homepage {
+    transform-origin: 460.0823px 205.8678px;
+    animation: mover 2s infinite alternate; /* Animación por defecto */
+}
+
+#tomate-homepage {
+    transform-origin: 1499.8323px 900.1723px;
+    animation: mover 2s infinite alternate;
+}
+
+#ajos-homepage {
+    transform-origin: 203.0255px 903.179px;
+    animation: mover 1s infinite alternate;
+}
+
+#huevos-homepage {
+    transform-origin: 188.4534px 286.2515px;
+    animation: mover 1.5s infinite alternate;
+}
+
+#rodillo-homepage {
+    transform-origin: 1546.6299px 198.3597px;
+    animation: mover 1.5s infinite alternate;
+}
+#abuelita-homepage {
+    transform-origin: 1635.563px 563.8439px;
+    animation: mover 2s infinite alternate;
+}
+#gorro-homepage {
+    transform-origin: 283.5239px 581.9415px;
+    animation: mover 2s infinite alternate;
+}
+
+@keyframes mover {
+    0% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(-20deg);
+    }
+}
+
+#tiempo1-seleccion:hover,
+#tiempo2-seleccion:hover{
+	cursor: pointer;
+	scale: 100.5%;
+}
+
+#rectangulo-elegir:hover,
+#rectangulo-croqueta:hover{
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+#textocroquetaprx-seleccion, #cuatro-tortilla{
+	display: none;
+}
+
+#dialogoindicacion1-tortilla, #bocadillo1-tortilla{
+	display: none;
+}
+
+#abuelita1-tortilla:hover{
+	transform-origin: 386.475px 691.1721px;
+	scale: 0.9;
+}
+
+#personas-tortilla:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+#textoaceite-tortilla, #textohuevos-tortilla,
+#textocebolla-tortilla,#textopatatas-tortilla,#textosal-tortilla,#textoespatula-tortilla, #textotabla-tortilla,
+#textosarten-tortilla, #textocuenco-tortilla, #textocubiertos-tortilla,
+#textopelador-tortilla, #textoplato-tortilla {
+	display: none;
+}
+
+#textocuchillo-tortilla{
+	display: none;
+}
+
+#aceite-tortilla{
+	cursor:pointer;
+	transform-origin: 243.1978px 1329.9468px;
+	animation: salto 0.7s infinite alternate;
+}
+
+#aceite-tortilla:hover{
+	scale: 1.1;
+}
+
+#huevos-tortilla{
+	cursor:pointer;
+	transform-origin: 469.3811px 1298.4798px;
+	animation: salto 0.9s infinite alternate;
+}
+
+#huevos-tortilla:hover{
+	scale: 1.1;
+}
+
+#cebolla-tortilla{
+	cursor:pointer;
+	transform-origin: 401.4571px 1556.0259px;
+	animation: salto 0.5s infinite alternate;
+}
+
+#cebolla-tortilla:hover{
+	scale: 1.1;
+}
+
+#patatas-tortilla{
+	cursor:pointer;
+	transform-origin: 664.7135px 1572.0595px;
+	animation: salto 0.7s infinite alternate;
+}
+
+#patatas-tortilla:hover{
+	scale: 1.1;
+}
+
+#sal-tortilla{
+	cursor:pointer;
+	transform-origin: 696.0176px 1278.3509px;
+	animation: salto 0.6s infinite alternate;
+}
+
+#sal-tortilla:hover{
+	scale: 1.1;
+}
+
+@keyframes salto {
+	0% {
+		transform: translateY(0px);
+	}
+	100% {
+		transform: translateY(-20px);
+	}
+}
+
+.parar {
+    animation: none; /* Detener la animación REVISAR */
+}
+
+#cuchillo1-tortilla{ 
+	cursor:pointer;
+	transform-origin: 1250.5956px 1256.6237px;
+}
+
+#cuchillo1-tortilla:hover{ 
+	scale: 1.1;
+}
+
+#cubiertos-tortilla{ 
+	cursor:pointer;
+	transform-origin: 1602.824px 1399.688px;
+}
+#cubiertos-tortilla:hover{ 
+	scale: 1.1;
+}
+#pelador-tortilla{
+	cursor:pointer;
+	transform-origin: 1662.0261px 1663.5679px;
+ }
+ #pelador-tortilla:hover{ 
+	scale: 1.1;
+}
+#tabla-tortilla{ 
+	cursor:pointer;
+	transform-origin: 1232.9823px 1336.2146px;
+}
+#tabla-tortilla:hover{ 
+	scale: 1.1;
+}
+#plato-tortilla{
+	cursor:pointer;
+	transform-origin: 1253.065px 1559.9827px;
+ }
+ #plato-tortilla:hover{ 
+	scale: 1.1;
+}
+#cuenco-tortilla{
+	cursor:pointer;
+	transform-origin: 1625.1589px 1285.3019px;
+ }
+ #cuenco-tortilla:hover{ 
+	scale: 1.1;
+}
+#espatula-tortilla{
+	cursor:pointer;
+	transform-origin: 1527.4101px 1515.8915px;
+ }
+ #espatula-tortilla:hover{ 
+	scale: 1.1;
+}
+#sartenuten_tortilla{ 
+	cursor:pointer;
+	transform-origin: 1359.9155px 1695.5934px;
+ }
+ #sartenuten_tortilla:hover{ 
+	scale: 1.1;
+}
+
+g[id*='bocadillocentro']{
+	display:none;
+}
+
+#alerta1-tortilla{
+	display:none;
+}
+
+#abuelita2-tortilla:hover{
+	transform-origin: 952.0107px 2125.4959px;
+	scale: 0.9;
+}
+
+g[id*='boton']:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+#boton1-tortilla:hover{
+	transform-origin: 189.8184px 2795.648px;
+	scale: 1.1;
+}
+
+#verdescrip1-tortilla:hover{
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+g[id*='paso']{
+	display: none;
+}
+
+g[id*='textoinfo']{
+	display: none;
+}
